@@ -1,0 +1,153 @@
+.home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+}
+
+.headerContainer {
+  margin-left: 988px;
+  padding-bottom: 50px;
+}
+
+
+.headerContainer button {
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  justify-content: center;
+  background-color: #121619;
+  height: 50px;
+  width: 190px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 660px 20px;
+}
+
+.headerContainer button:hover {
+  background-color: #07090a;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+@media only screen and (max-width: 650px) {
+  .home {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .headerContainer {
+    margin-left: 0px;
+    border-radius: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121619;
+    color: white;
+   
+  }
+
+  .headerContainer h1 {
+    font-size: 40px;
+    height: 30px;
+    color: white;
+  }
+
+  .headerContainer p {
+    font-size: 30px;
+    color: white;
+  }
+
+  .headerContainer button {
+    background-color: white;
+    color: #121619;
+  }
+
+  .headerContainer button:hover {
+    background-color: rgb(225, 225, 225);
+    color: #121619;
+  }
+}
+
+.container1{
+  position: absolute;
+  width: 70%;
+  height: auto;
+  top: 96%;
+  left: 90px;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid snow;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);  
+}
+
+.search1 {
+  
+  margin: 0px;
+  margin-right: 190px;
+  padding-right: 100px;
+
+}
+
+.search2 {
+  margin: 0px;
+  margin-left: 200px;
+  padding-right: 50px;
+}
+
+
+.slider {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 400px;
+  height: 600px;
+  border-radius: 20px;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+

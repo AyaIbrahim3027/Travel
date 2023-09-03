@@ -1,0 +1,152 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  background-image: url(nav.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 200%;
+  background-position: center;
+}
+
+.navbar .line{
+  position: absolute;
+  width: 1400px;
+  height: 0px;
+  left: 10px;
+  top: 63px;
+  margin-left: 35px;
+  border: 1px solid rgba(214, 214, 214, 0.548);
+}
+
+.navbar .logo{
+  position: sticky;
+  width: 167px;
+  height: 64px;
+  left: -50px;
+  top: 40px; 
+  font-family: 'Franklin Gothic Medium', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  color: #384552;
+  mix-blend-mode: normal;
+  margin-bottom:-40px ;
+}
+
+h3 {
+  font-size: 30px;
+  margin-left: 65px;
+  margin-top: -50px;
+}
+
+.navbar .rightSide {
+  padding-left: 50%;
+  display: flex;
+  
+}
+
+.navbar a {
+position: sticky;
+font-family: Stardos Stencil;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+color: #000000;
+margin: 20px;
+padding-left: 25px;
+text-align: center;  
+left: 690px;
+top: 35px;
+
+
+}
+
+
+.navbar .login{
+  position: sticky;
+  width: 120px;
+  height: 27px;
+  font-family: Stardos Stencil;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  border: 2px solid #000000;
+  border-radius: 7px;
+  margin: 15px;
+ 
+ 
+}
+
+.navbar .rightSide button {
+  background-color: transparent;
+  border: none;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.navbar .rightSide svg {
+  font-size: 40px;
+}
+
+.navbar #open {
+  padding-left: 0px;
+}
+.navbar #open img {
+  display: none;
+}
+
+.navbar #close img {
+  display: inherit;
+}
+
+.navbar #open .hiddenLinks {
+  display: inherit;
+  margin-left: 30px;
+}
+
+.navbar #close .hiddenLinks {
+  display: none;
+}
+
+.navbar #open a {
+  width: 70px;
+  margin: 5px;
+}
+@media only screen and (max-width: 900px) {
+  .navbar .rightSide a {
+    width: 70px;
+  }
+  .navbar .leftSide {
+    padding-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar .rightSide a {
+    display: none;
+  }
+
+  .navbar .rightSide {
+    justify-content: flex-end;
+    padding-right: 50px;
+  }
+
+  .navbar .rightSide button {
+    display: inherit;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .navbar .rightSide button {
+    display: none;
+  }
+
+  .hiddenLinks {
+    display: none;
+  }
+}

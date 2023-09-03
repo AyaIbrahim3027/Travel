@@ -1,0 +1,102 @@
+.ab{
+  margin-left: 650px;
+  font-size: 50px;
+  margin-top: 2px;
+}
+img {
+  background-image: url(1.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  background-position: center;
+  width: 50;
+  height: 100vh;
+}
+.wh{
+  font-size: 40px;
+  margin-left: 600px;
+}
+.mydiv{
+	display: flex;
+	margin: 10px;
+}
+.mydiv img{
+	width: 50px;
+	height: 60px;
+  margin-left: 150px;
+}
+h3{
+  margin-left: 102px;
+  margin-top: -31px;
+}
+
+.e{
+  margin-left: 102px;
+  font-size: 24px;
+  margin-top: 10px;
+}
+#one{
+  font-size: 18px;
+  margin-left: 99px;
+  
+}
+.mydiv h3 {
+  font-size: 24px;
+  margin-left: 15px;
+  margin-top: 20px;
+ 
+}
+#two{
+  font-size: 18px;
+  margin-left: 99px;
+  margin-top: 10px;
+}
+#three{
+  font-size: 18px;
+  margin-left: 99px;
+  margin-top: 10px;
+}
+#four{
+  font-size: 18px;
+  margin-left: 99px;
+  margin-top: 10px;
+}
+#five{
+  font-size: 18px;
+  margin-left: 99px;
+  margin-top: 10px;
+}
+
+.last{
+  margin-right: 1193px !important;
+}
+
+.eab{
+  margin-left: 59px;
+  margin-top: -57px;
+}
+
+.mon{
+  margin-left: 50px;
+  margin-top: 15px;
+}
+.tra{
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+.pla{
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+.tim{
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+.all{
+padding: 40px;
+}

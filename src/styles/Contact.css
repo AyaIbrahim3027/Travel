@@ -1,0 +1,171 @@
+
+
+.contact {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+}
+.contact .contactus{
+  position: absolute;
+  width: 178px;
+  height: 42px;
+  left: 550px;
+  top:70px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 2px;
+  color: #59626A;
+  text-align: center;
+}
+.contact .message{
+  position: absolute;
+  height: 28px;
+  left: 420px;
+  top: 90px;
+  font-family: Times New Roman;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  color: #423f3f;
+  text-align: center;
+}
+.contact .leftSide {
+  height: 101%;
+  flex: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-right: 1px;
+  margin-top: 50px;
+  top: 209px;
+}
+
+.contact .leftSide .text {
+position: absolute;
+width: 344px;
+height: 33px;
+left: 30px;
+top: 100px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 26px;
+color: #040D16;
+}
+
+.contact .leftSide .text2{
+position: absolute;
+width: 309px;
+height: 28px;
+left: 20px;
+top: 350px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+color: #000000;
+
+}
+.contact .leftSide .socialMedia{
+  color: rgb(5, 5, 5);
+  margin-left: 160px;
+  margin-top: 400px;
+  font-size: 70px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.contact .rightSide {
+  height: 100%;
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 50px;
+ 
+}
+
+.contact .rightSide h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 10;
+  font-size: 50px;
+  margin-left: 30px;
+  margin-top: 500px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  padding: 45px;
+  margin-top: 70px;
+  margin-left: 70px;
+  
+}
+
+form input {
+  height: 40px;
+  width: 80%;
+  border: none;
+  border-bottom: 1px solid #121619;
+  color: black;
+  margin-right: 770px;
+  
+}
+
+form input[type="text"]{
+  border-bottom: 1px solid #121619;
+  margin-top: 2px;
+}
+
+form textarea {
+  margin-top: 30px;
+  height: 70px;
+  width: 80%;
+  border: none;
+  border-bottom: 1px solid #121619;
+  color: black;
+  
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-weight: bold;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+form input:focus,
+textarea:focus {
+  outline: none;
+}
+
+form label {
+  margin-top: 45px;
+  margin-right: 100px;
+  padding-right: 550px;
+  color: rgb(46, 41, 41);
+}
+
+form button {
+  margin-top: 40px;
+  width: 140px;
+  height: 40px;
+  border: none;
+  background-color: #121619;
+  color: whitesmoke;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.cI{
+  font-size: 20px;
+  margin-left: 65px;
+  margin-top: 27px;
+}
